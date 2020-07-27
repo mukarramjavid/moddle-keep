@@ -21,7 +21,7 @@ const Note = (props) => {
   };
   const AddEvent = (e) => {
     e.preventDefault();
-    if (note === "" || note.content === "") {
+    if (note.title === "" || note.content === "") {
       alert("Add Item first");
     } else {
       props.passNote(note);
