@@ -22,7 +22,7 @@ const Note = (props) => {
   const AddEvent = (e) => {
     e.preventDefault();
     if (note.title === "" || note.content === "") {
-      alert("Add Item first");
+      alert("All Fields are required");
     } else {
       props.passNote(note);
       setNote({
