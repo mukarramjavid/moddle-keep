@@ -44,7 +44,7 @@ const Note = (props) => {
                     {expand ? (
                       <input
                         type="text"
-                        placeholder="Title"
+                        placeholder="Your Title here..."
                         className="form-control title-text"
                         autoComplete="off"
                         value={note.title}
